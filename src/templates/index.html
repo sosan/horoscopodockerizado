@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+<!-- FOOTER -->
+  {% block footer %}
+  <form action="/" method="POST">
+    <label for="anyo">年纪 Año de Nacimiento</label>
+    <input type="text" id="anyo" name="anyo" size="4" required maxlength="4" autofocus>
+  </form>
+  {% endblock %}
+
